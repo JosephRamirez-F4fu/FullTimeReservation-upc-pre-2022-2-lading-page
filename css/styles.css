@@ -71,3 +71,19 @@ header{
 .header .nav-list li a:hover{
     color: #FFFFFF;
 }
+
+/*Botones de la nav list*/
+.header .btn button{
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 9px 20px;
+    background: #387E6E;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FFFFFF;
+    color: #387E6E;
+}
