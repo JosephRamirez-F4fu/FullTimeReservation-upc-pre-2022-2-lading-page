@@ -47,3 +47,27 @@ header{
     transform: scale(1.2);
 }
 /* end Logo de nav*/
+
+
+/* lista de la nav list*/
+.header .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 20px;
+
+}
+
+/* elementos de la nav*/
+.header .nav-list li {
+    padding: 0 20px;
+}
+
+.header .nav-list a {
+    font-weight: 800;
+    color: #007854;
+    text-decoration: none;
+}
+.header .nav-list li a:hover{
+    color: #FFFFFF;
+}
